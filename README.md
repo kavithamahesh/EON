@@ -5,18 +5,20 @@ System Requirement:
      Node.js 18.x, 20.x, 22.x and above 
 
 ## Installation
-
+     Make sure you have yarn or npm installed globally on your system
 - Run `yarn` or `npm install`
 
 ## Running Cypress E2E tests
+     To view the test run on the browser using headed mode
+- Run `yarn test` or `npm run test`
 
-- Run `yarn test` 
+     To run test on headless mode
+  - Run `yarn test:headless`   or  `npm run test:headless`  
 
-     choose Electron browser as I faced issues with Chrome randomlyly towards Home page landing
 
 ## Generate report
 
-- Run `yarn report`
+- Run `yarn report` or `npm run report`
 
 ## Create a new feature file, 
 

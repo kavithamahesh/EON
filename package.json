@@ -4,7 +4,8 @@
   "description": "System Requirement :",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open",
+    "test:headless": "cypress run --spec 'cypress/e2e/features/swag-labs-e2e.feature'",
+    "test": "cypress run --spec 'cypress/e2e/features/swag-labs-e2e.feature' --headed",
     "report": "node cucumber-html-report.js"
   },
   "author": "",
