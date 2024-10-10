@@ -1,0 +1,10 @@
+Technology used :
+
+  cypress : latest version
+  cypress-cucumber-preprocessor: for cucumber integration
+  multiple-cucumber-html-reporter: for report generation 
+
+  --> followed page object modal [POM] architecture
+
+  --> test datas and expected values of the elements are separated from feature file and can be found cypress/e2e/inputs/
+ 
